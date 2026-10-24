@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.1.1. A local spreadsheet workspace for Windows x64, with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.1.2. A local spreadsheet workspace for Windows x64, with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder, or use PolySheet-0.1.1-setup.exe.
+Run PolySheet.exe from the portable folder, or use PolySheet-0.1.2-setup.exe.
 
 Create one-sheet workbooks in .polys format. Edit directly (double-click, F2 or type) or through the formula bar; press Enter to apply, Escape to cancel. Shift+arrows or drag selects a range. Resize columns/rows by dragging header boundaries. Use Home for clipboard and basic formatting. Save stores the full workbook; CSV export is a separate operation.
 
@@ -14,7 +14,7 @@ Copy adjusts relative references. Cut/paste moves cells and updates references, 
 
 CSV import defaults to text, preserving leading zeros. Optional numeric conversion can remove leading zeros. UTF-8 and Windows-1250, comma/semicolon/tab separators, escaped quotes and multiline fields are supported. CSV export writes computed values using the workbook culture and UTF-8 BOM; formulas, formatting, dimensions and type metadata are lost. Safe text prefixing is enabled by default and may add an apostrophe when read elsewhere.
 
-Limits: 10,000 rows, 100 columns, 100,000 populated/formatted cells; 64 MB native file/CSV input, 32,767 characters per cell. Formulas: 8,192 characters, 256 expression atoms, nesting depth 64, bounded total calculation work. Exceeding the calculation budget shows #LIMIT!. Very large selections and files may take longer. Undo history is bounded. Dates remain text. No printing in 0.1.1.
+Limits: 10,000 rows, 100 columns, 100,000 populated/formatted cells; 64 MB native file/CSV input, 32,767 characters per cell. Formulas: 8,192 characters, 256 expression atoms, nesting depth 64, bounded total calculation work. Exceeding the calculation budget shows #LIMIT!. Very large selections and files may take longer. Undo history is bounded. Dates remain text. No printing in 0.1.2.
 
 Shortcuts: Ctrl+N/O/S, Ctrl+Shift+S, Ctrl+Z/Y, Ctrl+C/X/V, Ctrl+B/I, F2, Delete, arrows, Shift+arrows, Tab, Enter, Home, Page Up/Down.
 

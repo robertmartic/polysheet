@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+- Added Overview, Changelog and Updates tabs to About, matching the other Poly apps.
+- Show an Update available action in the header when a newer release is found.
+- Made update checks, last-update details and storage management easier to find.
+
 ## 0.1.1
 - Updated the PolySheet logo and Windows application, document and installer icons.
 
