@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1
+- Updated the PolySheet logo and Windows application, document and installer icons.
+
 ## 0.1.0
 - Create and safely save local .polys workbooks with one worksheet.
 - Edit cells and ranges, copy and move data, undo and redo changes.
