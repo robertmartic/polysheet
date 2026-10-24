@@ -1,0 +1,7 @@
+PolySheet includes adapted PolyPDF / PolyWriter theme, update, recovery and
+installer infrastructure. Legacy MIT permissions remain in force for code covered
+by that grant; see licenses/PolyPDF-MIT.txt. PolyWriter code is reused by its owner.
+Microsoft .NET runtime and Windows Desktop components: MIT and third-party
+notices supplied with the .NET distribution. See licenses/dotnet/.
+NSIS installer stub: unmodified zlib distribution; see licenses/nsis/.
+No paid spreadsheet SDK or third-party formula engine is included.
