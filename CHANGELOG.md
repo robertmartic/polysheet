@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5
+- Compact local vector tools, grouped for Search, Clipboard, Font / Format, Alignment and Data.
+- Bold, Italic and alignment reflect the full selected range, including mixed formatting.
+- Consistent tooltips, accessible control names and visible keyboard focus in both themes.
+- More opens tools that do not fit the available toolbar width; commands preserve the worksheet selection.
+
 ## 0.1.4
 - Find and replace cell input and formula source, with case-sensitive and entire-cell options. Replace all can be undone in one step.
 - Auto fit selected columns from displayed values, or double-click a column divider.
