@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4
+- Find and replace cell input and formula source, with case-sensitive and entire-cell options. Replace all can be undone in one step.
+- Auto fit selected columns from displayed values, or double-click a column divider.
+- Use Ctrl+F to find, Ctrl+H to replace and Ctrl+G to go to a cell.
+- Highlight selected row and column headers and show selection dimensions.
+
 ## 0.1.3
 - Preserve pending cell and formula-bar input when changing selection or resizing columns and rows.
 - Cancel pending cuts on Undo/Redo and preserve cell formatting when pasting plain tabular text.
