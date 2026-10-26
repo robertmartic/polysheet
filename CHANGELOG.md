@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.6
+- Insert and delete rows or columns from the new Structure group, using the selected range to choose the affected rows or columns.
+- Formula references and ranges adjust with structural changes, including absolute references. Fully deleted references show #REF!.
+- Cell formatting and custom dimensions move with the affected cells. Undo/Redo restores the entire structural operation.
+- Insertions that would push existing content, formatting or custom dimensions outside the supported grid are rejected without partial changes.
+- Tooltips now use matching light/dark surfaces and readable text, fixing low-contrast labels in the dark theme.
+
 ## 0.1.5
 - Compact local vector tools, grouped for Search, Clipboard, Font / Format, Alignment and Data.
 - Bold, Italic and alignment reflect the full selected range, including mixed formatting.
