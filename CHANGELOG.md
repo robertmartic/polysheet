@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0
+- Work with multiple worksheets: add, rename, duplicate, reorder and delete sheets. Native saves, recovery and Undo/Redo preserve the whole workbook.
+- Use references between sheets, including quoted names. Renaming, deletion and structural edits adjust references; circular dependencies remain visible.
+- Fill Down (Ctrl+D), Fill Right (Ctrl+R) and drag the selection handle downward or right to extend formulas with mixed and absolute references.
+- Added ROUND, IF, AND, OR, comparisons, boolean constants and quoted formula text.
+- Import and export basic XLSX workbooks with values, supported formulas, basic formatting, dimensions and worksheets. Import opens a new unsaved native workbook; export writes a separate copy.
+- Clear compatibility notices describe unsupported Excel features. Original XLSX files remain available; external workbook content and macros are never executed.
+- Keep More accessible at narrow toolbar widths and retain readable tooltips in both themes.
+
 ## 0.1.6
 - Insert and delete rows or columns from the new Structure group, using the selected range to choose the affected rows or columns.
 - Formula references and ranges adjust with structural changes, including absolute references. Fully deleted references show #REF!.
