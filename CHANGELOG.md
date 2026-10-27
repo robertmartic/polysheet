@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+- Open built-in offline Help from the header or with F1, without changing pending workbook input.
+- Browse 55 practical help topics grouped into nine categories, including tools, formulas, worksheet management, import/export and updates.
+- Search across tool names, shortcuts and instructions, including common Croatian search aliases. Direct tool matches appear before incidental text matches.
+- Read steps and formula examples directly inside the app, with keyboard navigation and light/dark support.
+
 ## 0.2.0
 - Work with multiple worksheets: add, rename, duplicate, reorder and delete sheets. Native saves, recovery and Undo/Redo preserve the whole workbook.
 - Use references between sheets, including quoted names. Renaming, deletion and structural edits adjust references; circular dependencies remain visible.

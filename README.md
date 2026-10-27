@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.2.0. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.2.1. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder or use PolySheet-0.2.0-setup.exe. Download verified packages from https://github.com/robertmartic/polysheet/releases/latest.
+Run PolySheet.exe from the portable folder or use PolySheet-0.2.1-setup.exe. Download verified packages from https://github.com/robertmartic/polysheet/releases/latest.
 
 Create workbooks in .polys format. Use the worksheet selector and Sheets… to add, rename, duplicate, reorder or delete sheets. Sheet changes participate in workbook-wide Undo/Redo. Renaming adjusts qualified references; deleting a sheet turns its references into #REF!. At least one sheet must remain.
 
@@ -35,3 +35,4 @@ Native single-sheet v1 files remain readable. Multi-sheet workbooks use native f
 Shortcuts include Ctrl+N/O/S, Ctrl+Shift+S, Ctrl+Z/Y, Ctrl+C/X/V, Ctrl+B/I, Ctrl+D/R, Ctrl+F/H/G, F2, Delete, arrows, Shift+arrows, Tab, Enter, Home and Page Up/Down.
 
 See docs/INSTALLATION.md and docs/UPDATES.md. Included licenses and notices remain applicable.
+Built-in Help: choose Help in the header or press F1. Browse nine categories or search tool names, shortcuts and instructions across all 55 topics. Select a result to read steps and examples inside the app. Common Croatian search aliases are supported while instructions remain English. Ctrl+F focuses Help search, Down enters results, and Escape closes Help. Content is bundled and available offline; Help preserves pending input and does not modify the workbook.
