@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2
+
+- Updates now use PolyStudio's digitally signed update channel and verified official download server.
+- Automatic checks run at most once every 24–30 hours; manual checks remain available immediately.
+- Update downloads reject redirects, invalid signatures and unexpected application or package information.
+- This bridge release lets existing installations move to the new update service while preserving workbooks, settings and installation choices.
+
 ## 0.2.1
 - Open built-in offline Help from the header or with F1, without changing pending workbook input.
 - Browse 55 practical help topics grouped into nine categories, including tools, formulas, worksheet management, import/export and updates.

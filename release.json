@@ -1,6 +1,37 @@
 {
   "Format": 1,
-  "SourceRevision": "98f367beba3fa5ae144fbe01932f59180ff4e201",
-  "SourceRepository": "robertmartic/polysheet-source",
-  "Version": "0.2.1"
+  "Version": "0.2.2",
+  "BuildProvenance": "ae7ea3489a874c399e9f3ea1bdc997e6",
+  "Assets": [
+    {
+      "Name": "PolySheet-0.2.1-to-0.2.2-delta.zip",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.2.2/PolySheet-0.2.1-to-0.2.2-delta.zip",
+      "Size": 2064922,
+      "Sha256": "14c4b2c29292e2a64a0501c96b2f86f88ecf7ef7f1d84b78466abeaa6a1ac135"
+    },
+    {
+      "Name": "PolySheet-0.2.2-maintenance.exe",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.2.2/PolySheet-0.2.2-maintenance.exe",
+      "Size": 490222,
+      "Sha256": "68da34d810a2f32b3cce46fdf879fc7d7b4269deaa4f37a4ebed9b6eb04cba9c"
+    },
+    {
+      "Name": "PolySheet-0.2.2-manifest.json",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.2.2/PolySheet-0.2.2-manifest.json",
+      "Size": 70911,
+      "Sha256": "e20c8f2f4f3934c11a565831ab97466a4f0bd367d7797ee303aedba1a8e855ae"
+    },
+    {
+      "Name": "PolySheet-0.2.2-setup.exe",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.2.2/PolySheet-0.2.2-setup.exe",
+      "Size": 70641439,
+      "Sha256": "006171cf8d615dcf802746ac7b7b3c7d06a6e5a3788d14d9b5f272dd9840c491"
+    },
+    {
+      "Name": "PolySheet-0.2.2-win-x64.zip",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.2.2/PolySheet-0.2.2-win-x64.zip",
+      "Size": 73825556,
+      "Sha256": "b070405da7d263de2b3c227f72bc92e93d361fb3563a402ac19ec27b92affebe"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.2.1. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.2.2. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder or use PolySheet-0.2.1-setup.exe. Download verified packages from https://github.com/robertmartic/polysheet/releases/latest.
+Run PolySheet.exe from the portable folder or use PolySheet-0.2.2-setup.exe. Download official packages through the PolyStudio update service. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
 
 Create workbooks in .polys format. Use the worksheet selector and Sheets… to add, rename, duplicate, reorder or delete sheets. Sheet changes participate in workbook-wide Undo/Redo. Renaming adjusts qualified references; deleting a sheet turns its references into #REF!. At least one sheet must remain.
 
@@ -36,3 +36,5 @@ Shortcuts include Ctrl+N/O/S, Ctrl+Shift+S, Ctrl+Z/Y, Ctrl+C/X/V, Ctrl+B/I, Ctrl
 
 See docs/INSTALLATION.md and docs/UPDATES.md. Included licenses and notices remain applicable.
 Built-in Help: choose Help in the header or press F1. Browse nine categories or search tool names, shortcuts and instructions across all 55 topics. Select a result to read steps and examples inside the app. Common Croatian search aliases are supported while instructions remain English. Ctrl+F focuses Help search, Down enters results, and Escape closes Help. Content is bundled and available offline; Help preserves pending input and does not modify the workbook.
+
+Updates use digitally signed PolyStudio metadata and verified official download URLs. Automatic checks run at most once every 24–30 hours; use About > Updates to check immediately.
