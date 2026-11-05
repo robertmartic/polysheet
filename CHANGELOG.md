@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0
+
+- Select a complete column or row by clicking its letter or number. Drag the header divider to resize as before.
+- Sort ranges by multiple columns, filter rows and freeze headers while scrolling.
+- Use COUNTIF, SUMIF, AVERAGEIF and IFERROR in formulas.
+- Format typed dates and add allowed-value lists, number bounds or date bounds to a range.
+- Exchange basic dates, frozen panes, filters and input rules with XLSX. The import and export dialogs explain unsupported options.
+- Find examples for these tools in offline Help.
+
 ## 0.2.2
 
 - Updates now use PolyStudio's digitally signed update channel and verified official download server.
