@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- The worksheet grid now fills its viewport when PolySheet opens and when the window changes size.
+
 ## 0.3.0
 
 - Select a complete column or row by clicking its letter or number. Drag the header divider to resize as before.

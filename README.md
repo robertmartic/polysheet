@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.3.0. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.3.1. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder or use PolySheet-0.3.0-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.0/PolySheet-0.3.0-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.0/PolySheet-0.3.0-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
+Run PolySheet.exe from the portable folder or use PolySheet-0.3.1-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.1/PolySheet-0.3.1-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.1/PolySheet-0.3.1-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
 
 Create workbooks in .polys format. Use the worksheet selector and Sheets… to add, rename, duplicate, reorder or delete sheets. Sheet changes participate in workbook-wide Undo/Redo. Renaming adjusts qualified references; deleting a sheet turns its references into #REF!. At least one sheet must remain.
 
@@ -30,7 +30,7 @@ XLSX compatibility is limited. Macros, linked workbook data, charts, pivots, mer
 
 Limits: 32 sheets, 10,000 rows × 100 columns (A–CV) per sheet, 100,000 populated/formatted cells across the workbook, 64 MB native/CSV/XLSX input and 32,767 input characters per cell. XLSX expanded package limit: 128 MB total, 64 MB per part and 4,096 entries. Oversized/out-of-grid content is rejected rather than silently truncated. Formulas have an 8,192-character limit, 256 expression atoms, depth 64 and a shared calculation budget. Exceeding the budget displays #LIMIT!. Undo history is bounded. Printing, charts and pivot tables are outside this release.
 
-Native single-sheet v1 files remain readable. Native v1 and v2 workbooks remain readable. Workbooks with new sheet options or typed dates use v3, which requires 0.3.0. Recovery checkpoints every 15 seconds include all worksheets and pending input, encrypted for the current Windows user. Recovery is best effort and does not replace saving. External changes to an opened .polys file are protected; use Save as to preserve both versions.
+Native single-sheet v1 files remain readable. Native v1 and v2 workbooks remain readable. Workbooks with new sheet options or typed dates use v3, which requires 0.3.0 or later. Recovery checkpoints every 15 seconds include all worksheets and pending input, encrypted for the current Windows user. Recovery is best effort and does not replace saving. External changes to an opened .polys file are protected; use Save as to preserve both versions.
 
 Shortcuts include Ctrl+N/O/S, Ctrl+Shift+S, Ctrl+Z/Y, Ctrl+C/X/V, Ctrl+B/I, Ctrl+D/R, Ctrl+F/H/G, F2, Delete, arrows, Shift+arrows, Tab, Enter, Home and Page Up/Down.
 
