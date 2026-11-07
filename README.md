@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.3.1. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.3.3. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder or use PolySheet-0.3.1-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.1/PolySheet-0.3.1-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.1/PolySheet-0.3.1-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
+Run PolySheet.exe from the portable folder or use PolySheet-0.3.3-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
 
 Create workbooks in .polys format. Use the worksheet selector and Sheets… to add, rename, duplicate, reorder or delete sheets. Sheet changes participate in workbook-wide Undo/Redo. Renaming adjusts qualified references; deleting a sheet turns its references into #REF!. At least one sheet must remain.
 
@@ -28,9 +28,9 @@ XLSX import opens a new unsaved workbook and preserves the original file. XLSX e
 
 XLSX compatibility is limited. Macros, linked workbook data, charts, pivots, merges, complex filters and validation, print settings, conditional formatting and other advanced content are not preserved. Rich text and unsupported formats are simplified. Unsupported formula source is retained but may display an error; Excel recalculates exported formulas. Compatibility notices appear before import/export. Keep the original XLSX and use native .polys for ongoing work. Encrypted workbooks and strict-namespace XLSX are unsupported.
 
-Limits: 32 sheets, 10,000 rows × 100 columns (A–CV) per sheet, 100,000 populated/formatted cells across the workbook, 64 MB native/CSV/XLSX input and 32,767 input characters per cell. XLSX expanded package limit: 128 MB total, 64 MB per part and 4,096 entries. Oversized/out-of-grid content is rejected rather than silently truncated. Formulas have an 8,192-character limit, 256 expression atoms, depth 64 and a shared calculation budget. Exceeding the budget displays #LIMIT!. Undo history is bounded. Printing, charts and pivot tables are outside this release.
+Limits: 32 sheets, 10,000 rows × 100 columns (A–CV) per sheet, 100,000 populated/formatted cells across the workbook, 64 MB native/CSV/XLSX input and 32,767 input characters per cell. XLSX expanded package limit: 128 MB total, 64 MB per part and 4,096 entries. Oversized/out-of-grid content is rejected rather than silently truncated. Formulas have an 8,192-character limit, 256 expression atoms, depth 64 and a shared calculation budget. Exceeding the budget displays #LIMIT!. Undo history is bounded. Printing and pivot tables are outside this release.
 
-Native single-sheet v1 files remain readable. Native v1 and v2 workbooks remain readable. Workbooks with new sheet options or typed dates use v3, which requires 0.3.0 or later. Recovery checkpoints every 15 seconds include all worksheets and pending input, encrypted for the current Windows user. Recovery is best effort and does not replace saving. External changes to an opened .polys file are protected; use Save as to preserve both versions.
+Native single-sheet v1 files remain readable. Native v1 and v2 workbooks remain readable. Workbooks with new sheet options or typed dates use v3, which requires 0.3.0 or later. Chart-bearing workbooks use v4, which requires 0.3.3 or later. Recovery checkpoints every 15 seconds include all worksheets and pending input, encrypted for the current Windows user. Recovery is best effort and does not replace saving. External changes to an opened .polys file are protected; use Save as to preserve both versions.
 
 Shortcuts include Ctrl+N/O/S, Ctrl+Shift+S, Ctrl+Z/Y, Ctrl+C/X/V, Ctrl+B/I, Ctrl+D/R, Ctrl+F/H/G, F2, Delete, arrows, Shift+arrows, Tab, Enter, Home and Page Up/Down.
 
@@ -44,3 +44,5 @@ Click a column letter or row number to select the entire axis. Header dividers s
 Select B2 and use View > Freeze panes to keep row 1 and column A visible. Choose Date or ISO Date to convert calendar inputs. Enter YYYY-MM-DD or a full date in the workbook locale. Rules support inline lists, numeric bounds and whole-date bounds. List cells offer an Allowed values menu. Empty input is allowed. Rule ranges accept literals and reject formulas.
 
 XLSX interoperability covers a supported subset: one value/contains/numeric filter per sheet, normal frozen panes, whole dates from 1900 onward and simple inline-list or between rules. Complex criteria, formula-driven rules, multi-range rules, time arithmetic and lists exceeding Excel inline-list limits are reported when omitted or simplified.
+
+Open Data > Charts, select a worksheet range and choose New chart. Each value column becomes a series. First-row series names and first-column category labels are optional. The Charts pane supports column and line charts, editable titles and source ranges, three color palettes and a legend. Charts refresh when source cells change or formulas finish calculating. Missing, text and error values leave gaps. Filtered-out rows are included. Charts are stored per worksheet in .polys, with up to 16 charts per sheet and 200 data rows × 8 value columns per chart.

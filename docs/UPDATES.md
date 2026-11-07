@@ -8,7 +8,7 @@ An installed copy checks newer numeric versions, downloads a full or matching fi
 
 Before replacement, all PolySheet windows must close and unsaved work is checked. Cancelling the save prompt cancels the update. The helper stages and verifies files, preserves unrelated files and uses a maintenance installer to retain registration and shortcut choices. Failures report their actual state and retain rollback data; success is confirmed after restart and shows the offline changelog. About includes update storage management.
 
-Version 0.3.1 includes a file-level delta from 0.3.0. Version 0.2.2 remains the one-time GitHub bridge for older installations. Later versions are delivered through the signed PolyStudio update service. If the installed files differ from the verified base, the updater uses the full package. Update success, failure, corruption, rollback and interruption are tested with synthetic fixtures. A real installed-app update requires the owner's confirmation after publication.
+Version 0.3.3 includes a file-level delta from 0.3.1. Version 0.2.2 remains the one-time GitHub bridge for older installations. Later versions are delivered through the signed PolyStudio update service. If the installed files differ from the verified base, the updater uses the full package. Update success, failure, corruption, rollback and interruption are tested with synthetic fixtures. A real installed-app update requires the owner's confirmation after publication.
 
 ## Optional PolyHUB integration
 

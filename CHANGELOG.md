@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.3
+
+- Create column and line charts from a worksheet range.
+- Choose headers, category labels, a title, legend visibility and a color palette.
+- Edit the range or appearance in the Charts pane. Saved charts refresh when source values or formulas change.
+- Save charts in .polys workbooks. XLSX copies retain the worksheet data and report chart omissions.
+
 ## 0.3.1
 
 - The worksheet grid now fills its viewport when PolySheet opens and when the window changes size.
