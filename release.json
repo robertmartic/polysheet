@@ -1,37 +1,37 @@
 {
   "Format": 1,
-  "Version": "0.3.3",
-  "BuildProvenance": "92c50103ce3c4926be942a0ac7f69cb2",
+  "Version": "0.3.4",
+  "BuildProvenance": "5168a8762ee4485eb851c9e7efa0d6ad",
   "Assets": [
     {
-      "Name": "PolySheet-0.3.1-to-0.3.3-delta.zip",
-      "Url": "https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.1-to-0.3.3-delta.zip",
-      "Size": 2106295,
-      "Sha256": "ecb485585625cd6c58b60d77c5a90d55ba861da630f7baab251adee7ac84c89d"
+      "Name": "PolySheet-0.3.3-to-0.3.4-delta.zip",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.3-to-0.3.4-delta.zip",
+      "Size": 2165986,
+      "Sha256": "43a84d1975d758f0a470ba83fa0c4b981a9b6b7cee219379d62c33d4531972ab"
     },
     {
-      "Name": "PolySheet-0.3.3-maintenance.exe",
-      "Url": "https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-maintenance.exe",
-      "Size": 490230,
-      "Sha256": "77459d3e319787ba021de3746bd4d4ea06e19f8d42e01b5c7f6df48259a0f859"
+      "Name": "PolySheet-0.3.4-maintenance.exe",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-maintenance.exe",
+      "Size": 490231,
+      "Sha256": "f152a03ba10e5e2d56c36686b5b84002a7be9e89af8320fa0f2a4486d98efe51"
     },
     {
-      "Name": "PolySheet-0.3.3-manifest.json",
-      "Url": "https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-manifest.json",
+      "Name": "PolySheet-0.3.4-manifest.json",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-manifest.json",
       "Size": 70911,
-      "Sha256": "28b051c368528461a1b452136507aae130e843fb7214851cd9fd2f1a3571649f"
+      "Sha256": "4eeb3c1ef30d7f36dc6f3f2671ac291aa93db4b65a6896e2a4c8d557c15958fd"
     },
     {
-      "Name": "PolySheet-0.3.3-setup.exe",
-      "Url": "https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-setup.exe",
-      "Size": 70687512,
-      "Sha256": "033bd830f9bcaa600b4b7b41aa50d654263eec164be658898f6eb95857fb9fe9"
+      "Name": "PolySheet-0.3.4-setup.exe",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-setup.exe",
+      "Size": 70748732,
+      "Sha256": "01e7161794daf864d813a1bbf7747304f0605124054fac620398e11db558c557"
     },
     {
-      "Name": "PolySheet-0.3.3-win-x64.zip",
-      "Url": "https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-win-x64.zip",
-      "Size": 73866933,
-      "Sha256": "421ef9fe00dafda88c52a92b2dfd35a73fa629be3de6b6c567e58356c9bef677"
+      "Name": "PolySheet-0.3.4-win-x64.zip",
+      "Url": "https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-win-x64.zip",
+      "Size": 73926617,
+      "Sha256": "a724ad7134bcb35fd2fd30c55d866625ed903f54f214ccbc4adac6d805cd2ea0"
     }
   ]
 }

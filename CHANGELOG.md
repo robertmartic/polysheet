@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.4
+
+- Data and View commands use grouped vector icons with full tool names on hover and keyboard focus support.
+- The Charts pane uses matching vector controls and displays saved charts by title.
+- Offline Help covers the current tools and includes screenshots beside selected steps in both themes.
+
 ## 0.3.3
 
 - Create column and line charts from a worksheet range.

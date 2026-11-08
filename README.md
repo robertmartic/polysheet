@@ -1,8 +1,8 @@
 # PolySheet
 
-Version 0.3.3. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
+Version 0.3.4. A local spreadsheet workspace for Windows x64 with an English interface and light/dark themes. Free and unlocked; no account or document upload.
 
-Run PolySheet.exe from the portable folder or use PolySheet-0.3.3-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.3/PolySheet-0.3.3-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
+Run PolySheet.exe from the portable folder or use PolySheet-0.3.4-setup.exe. Download [Windows setup](https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-setup.exe) or the [portable ZIP](https://downloads.polystudio.tools/polysheet/0.3.4/PolySheet-0.3.4-win-x64.zip) from PolyStudio. The one-time 0.2.2 bridge is also available at https://github.com/robertmartic/polysheet/releases/tag/v0.2.2 for older installations.
 
 Create workbooks in .polys format. Use the worksheet selector and Sheets… to add, rename, duplicate, reorder or delete sheets. Sheet changes participate in workbook-wide Undo/Redo. Renaming adjusts qualified references; deleting a sheet turns its references into #REF!. At least one sheet must remain.
 
